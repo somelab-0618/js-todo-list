@@ -21,10 +21,6 @@ button:hover {
   cursor: pointer;
 }
 
-li {
-  margin-right: 8px;
-}
-
 .input-area {
   width: 400px;
   height: 30px;
@@ -62,4 +58,8 @@ li {
 .list-row {
   display: flex;
   align-items: center;
+}
+
+.list-row p {
+  margin-right: 8px;
 }
