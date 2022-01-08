@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO-LIST(Javascript)</title>
-    <link rel="stylesheet" href="src/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO-LIST(Javascript)</title>
+  <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-    <div class="input-area">
-        <input type="text" placeholder="TODOを入力">
-        <button>追加</button>
-    </div>
-    <div class="imcomplete-area">
-        <p>未完了のTODO</p>
-        <ul>
-            <li>
-                <p>Todoです</p>
-                <button>完了</button>
-                <button>削除</button>
-            </li>
-        </ul>
-    </div>
-    <div class="complete-area">
-        <p>完了したTODO</p>
-        <ul>
-            <li>
-                <p>完了Todoです</p>
-                <button>戻す</button>
-            </li>
-        </ul>
-    </div>
-    <script src="index.js"></script>
+  <div class="input-area">
+    <input type="text" placeholder="TODOを入力">
+    <button>追加</button>
+  </div>
+  <div class="incomplete-area">
+    <p class="title">未完了のTODO</p>
+    <ul>
+      <li class="list-row">
+        <p>Todoです</p>
+        <button>完了</button>
+        <button>削除</button>
+      </li>
+      <li class="list-row">
+        <p>Todoです</p>
+        <button>完了</button>
+        <button>削除</button>
+      </li>
+    </ul>
+  </div>
+  <div class="complete-area">
+    <p class="title">完了したTODO</p>
+    <ul>
+      <li class="list-row">
+        <p>完了Todoです</p>
+        <button>戻す</button>
+      </li>
+    </ul>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
